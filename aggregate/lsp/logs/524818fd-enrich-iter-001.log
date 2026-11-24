@@ -1,0 +1,49 @@
+[2026-11-24T22:12:46Z] === ENRICH ITERATION 1 START | repo=huggingface/tokenizers sha=524818fd ===
+[2026-11-24T22:12:46Z] [iter=1] PHASE START: enrich repo=huggingface/tokenizers sha=524818fd runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/524818fd-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/524818fd09524cb4330322a7b9d22db8a9352362.nq.gz
+[2026-11-24T22:12:46Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T22:12:59Z] [iter=1] AST store loaded triples=1740534 load_secs=13 mem_mb=923 MB
+[2026-11-24T22:12:59Z] [iter=1] Step 2: Finding LSP targets mem_mb=923 MB
+[2026-11-24T22:13:03Z] [iter=1] LSP targets found call_sites=14547 imports=701 extends=72 implements=235 secs=4
+[2026-11-24T22:13:06Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=923 MB
+[2026-11-24T22:13:16Z] [iter=1] Position index built positions=114676 nodes_with_types=141534 secs=9 mem_mb=923 MB
+[2026-11-24T22:13:16Z] [iter=1] Step 3: Starting LSP resolution mem_mb=923 MB already_completed_types=[] already_completed_files=0
+[2026-11-24T22:13:16Z] [iter=1] Resolving target type target_type=call_site count=14547
+[2026-11-24T22:13:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=bindings/python/tests/bindings/test_decoders.py
+[2026-11-24T22:15:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=2 resolved=214 errors=0 current=docs/source/_ext/entities.py
+[2026-11-24T22:15:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=8 resolved=441 errors=0 current=bindings/python/scripts/spm_parity_check.py
+[2026-11-24T22:16:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=10 resolved=604 errors=0 current=bindings/python/tests/bindings/test_normalizers.py
+[2026-11-24T22:17:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=15 resolved=1141 errors=0 current=bindings/python/scripts/sentencepiece_extractor.py
+[2026-11-24T22:17:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=28 resolved=1516 errors=0 current=bindings/python/tests/documentation/test_quicktour.py
+[2026-11-24T22:18:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=42 resolved=1743 errors=0 current=bindings/node/lib/bindings/decoders.test.ts
+[2026-11-24T22:18:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=43 resolved=1787 errors=0 current=bindings/node/lib/bindings/tokenizer.test.ts
+[2026-11-24T22:19:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=44 resolved=1881 errors=0 current=bindings/node/lib/bindings/models.test.ts
+[2026-11-24T22:20:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.7 files_done=46 resolved=1936 errors=0 current=bindings/node/lib/bindings/raw-encoding.test.ts
+[2026-11-24T22:21:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=47 resolved=1998 errors=0 current=bindings/node/examples/documentation/pipeline.test.ts
+[2026-11-24T22:21:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=48 resolved=2046 errors=0 current=bindings/node/lib/bindings/post-processors.test.ts
+[2026-11-24T22:22:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=51 resolved=2102 errors=0 current=bindings/node/lib/bindings/normalizers.test.ts
+[2026-11-24T22:23:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=55 resolved=2170 errors=0 current=bindings/node/lib/implementations/tokenizers/base.tokenizer.test.ts
+[2026-11-24T22:23:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.9 files_done=58 resolved=2229 errors=0 current=bindings/node/lib/implementations/tokenizers/byte-level-bpe.tokenizer.ts
+[2026-11-24T22:24:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.8 files_done=60 resolved=2253 errors=0 current=tokenizers/src/models/unigram/trainer.rs
+[2026-11-24T22:25:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=61 resolved=2642 errors=0 current=tokenizers/src/models/unigram/model.rs
+[2026-11-24T22:26:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=62 resolved=2888 errors=0 current=tokenizers/src/models/unigram/lattice.rs
+[2026-11-24T22:27:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=63 resolved=3243 errors=0 current=tokenizers/src/tokenizer/added_vocabulary.rs
+[2026-11-24T22:28:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.3 files_done=64 resolved=3489 errors=0 current=tokenizers/src/tokenizer/mod.rs
+[2026-11-24T22:29:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=65 resolved=3780 errors=0 current=tokenizers/benches/bpe_benchmark.rs
+[2026-11-24T22:32:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.4 files_done=67 resolved=4492 errors=0 current=bindings/node/native/src/pre_tokenizers.rs
+[2026-11-24T22:32:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=72 resolved=4659 errors=0 current=tokenizers/tests/offsets.rs
+[2026-11-24T22:34:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.5 files_done=74 resolved=5125 errors=0 current=tokenizers/src/processors/roberta.rs
+[2026-11-24T22:34:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=76 resolved=5355 errors=0 current=tokenizers/src/utils/truncation.rs
+[2026-11-24T22:35:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=77 resolved=5496 errors=0 current=bindings/python/src/models.rs
+[2026-11-24T22:36:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=81 resolved=5688 errors=0 current=bindings/python/src/tokenizer.rs
+[2026-11-24T22:36:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.1 files_done=90 resolved=5860 errors=0 current=bindings/python/src/encoding.rs
+[2026-11-24T22:37:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=95 resolved=6039 errors=0 current=bindings/node/native/src/utils.rs
+[2026-11-24T22:38:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.2 files_done=102 resolved=6492 errors=0 current=tokenizers/src/normalizers/replace.rs
+[2026-11-24T22:39:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.9 files_done=106 resolved=6734 errors=0 current=bindings/node/native/src/normalizers.rs
+[2026-11-24T22:40:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=108 resolved=7036 errors=0 current=tokenizers/src/models/wordlevel/serialization.rs
+[2026-11-24T22:41:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.3 files_done=110 resolved=7173 errors=0 current=bindings/node/native/src/tasks/models.rs
+[2026-11-24T22:41:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.9 files_done=114 resolved=7348 errors=0 current=bindings/node/native/src/tasks/tokenizer.rs
+[2026-11-24T22:42:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.6 files_done=117 resolved=7495 errors=0 current=tokenizers/src/pre_tokenizers/split.rs
+[2026-11-24T22:42:47Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=117 new_files_this_iter=117 mem_mb=923 MB
+[2026-11-24T22:42:47Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/524818fd09524cb4330322a7b9d22db8a9352362.nq.gz triples=72291
+[2026-11-24T22:42:48Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-24T22:42:48Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=117
