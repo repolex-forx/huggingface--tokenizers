@@ -1,0 +1,11 @@
+{
+  "org": "huggingface",
+  "repo": "tokenizers",
+  "versions": [
+    {
+      "commit": "524818fd09524cb4330322a7b9d22db8a9352362",
+      "tag": "v0.13.4.rc3",
+      "parsed_at": "2026-11-24T23:32:10.781161+00:00"
+    }
+  ]
+}
